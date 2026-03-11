@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Sales Report March 11, 2026</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Segoe UI', Arial, sans-serif; background: #f0f4f8; color: #2d3748; }
+  .wrapper { max-width: 1100px; margin: 40px auto; padding: 0 20px; }
+  .header { background: linear-gradient(135deg, #1a365d 0%, #2b6cb0 100%);
+            color: white; border-radius: 12px 12px 0 0; padding: 32px 40px; }
+  .header h1 { font-size: 28px; letter-spacing: 0.5px; }
+  .header p  { margin-top: 6px; opacity: 0.85; font-size: 14px; }
+  .kpi-row { display: flex; gap: 16px; background: white;
+             padding: 24px 40px; border-bottom: 1px solid #e2e8f0; }
+  .kpi { flex: 1; text-align: center; }
+  .kpi .val { font-size: 26px; font-weight: 700; color: #2b6cb0; }
+  .kpi .lbl { font-size: 12px; color: #718096; text-transform: uppercase;
+              letter-spacing: 0.8px; margin-top: 4px; }
+  .section { background: white; padding: 32px 40px; margin-top: 2px; }
+  .section h2 { font-size: 18px; color: #1a365d; border-left: 4px solid #2b6cb0;
+                padding-left: 12px; margin-bottom: 20px; }
+  table { width: 100%; border-collapse: collapse; font-size: 13.5px; }
+  thead tr { background: #1a365d; color: white; }
+  thead th { padding: 12px 14px; text-align: center; font-weight: 600; }
+  tbody tr:nth-child(even) { background: #ebf4ff; }
+  tbody tr:hover { background: #bee3f8; transition: background 0.15s; }
+  tbody td { padding: 10px 14px; text-align: center; border-bottom: 1px solid #e2e8f0; }
+  .product-name { text-align: left !important; font-weight: 500; }
+  tfoot td { background: #fef3c7; font-weight: 700; padding: 11px 14px;
+             border-top: 2px solid #f6ad55; text-align: center; }
+  .badge { display: inline-block; background: #ebf8ff; color: #2b6cb0;
+           border: 1px solid #bee3f8; border-radius: 12px; padding: 2px 10px; font-size: 12px; }
+  .footer { background: white; border-radius: 0 0 12px 12px; padding: 20px 40px;
+            text-align: center; color: #a0aec0; font-size: 12px;
+            border-top: 1px solid #e2e8f0; margin-top: 2px; }
+</style>
+</head>
+<body>
+<div class="wrapper">
+  <div class="header">
+    <h1>&#128202; Sales Performance Report</h1>
+    <p>Generated on March 11, 2026 &nbsp;|&nbsp; Reporting Period: Jan - Jun 2024 &nbsp;|&nbsp; All Regions</p>
+  </div>
+  <div class="kpi-row">
+    <div class="kpi"><div class="val">$3309K</div><div class="lbl">Total Revenue</div></div>
+    <div class="kpi"><div class="val">8795</div><div class="lbl">Units Sold</div></div>
+    <div class="kpi"><div class="val">5</div><div class="lbl">Products</div></div>
+    <div class="kpi"><div class="val">6</div><div class="lbl">Months Tracked</div></div>
+  </div>
+  <div class="section">
+    <h2>Product Performance Summary</h2>
+    <table>
+      <thead><tr>
+        <th style="text-align:left">Product</th>
+        <th>Total Units Sold</th><th>Total Revenue</th>
+        <th>Avg Unit Price</th><th>Revenue Share</th>
+      </tr></thead>
+      <tbody>
+        
+        <tr>
+          <td class="product-name">Laptop Pro 15</td>
+          <td>995</td>
+          <td>$1,293,490.05</td>
+          <td>$1,299.99</td>
+          <td><span class="badge">39.1%</span></td>
+        </tr>
+        
+        <tr>
+          <td class="product-name">Tablet Air 10</td>
+          <td>1,380</td>
+          <td>$758,986.20</td>
+          <td>$549.99</td>
+          <td><span class="badge">22.9%</span></td>
+        </tr>
+        
+        <tr>
+          <td class="product-name">Smart Watch Ultra</td>
+          <td>1,690</td>
+          <td>$675,983.10</td>
+          <td>$399.99</td>
+          <td><span class="badge">20.4%</span></td>
+        </tr>
+        
+        <tr>
+          <td class="product-name">Wireless Headphones</td>
+          <td>2,575</td>
+          <td>$386,224.25</td>
+          <td>$149.99</td>
+          <td><span class="badge">11.7%</span></td>
+        </tr>
+        
+        <tr>
+          <td class="product-name">Bluetooth Speaker</td>
+          <td>2,155</td>
+          <td>$193,928.45</td>
+          <td>$89.99</td>
+          <td><span class="badge">5.9%</span></td>
+        </tr>
+        
+      </tbody>
+      <tfoot><tr>
+        <td>TOTAL</td>
+        <td>8,795</td>
+        <td>$3,308,612.05</td>
+        <td>-</td><td>100.0%</td>
+      </tr></tfoot>
+    </table>
+  </div>
+  <div class="section">
+    <h2>Monthly Revenue Breakdown</h2>
+    <table>
+      <thead><tr><th>Month</th><th>Revenue</th><th>% of Total</th></tr></thead>
+      <tbody>
+        
+        <tr>
+          <td>Jan 2024</td>
+          <td>$416,088.60</td>
+          <td>12.6%</td>
+        </tr>
+        
+        <tr>
+          <td>Feb 2024</td>
+          <td>$487,786.90</td>
+          <td>14.7%</td>
+        </tr>
+        
+        <tr>
+          <td>Mar 2024</td>
+          <td>$536,735.75</td>
+          <td>16.2%</td>
+        </tr>
+        
+        <tr>
+          <td>Apr 2024</td>
+          <td>$579,984.65</td>
+          <td>17.5%</td>
+        </tr>
+        
+        <tr>
+          <td>May 2024</td>
+          <td>$623,983.55</td>
+          <td>18.9%</td>
+        </tr>
+        
+        <tr>
+          <td>Jun 2024</td>
+          <td>$664,032.60</td>
+          <td>20.1%</td>
+        </tr>
+        
+      </tbody>
+      <tfoot><tr>
+        <td>TOTAL</td>
+        <td>$3,308,612.05</td>
+        <td>100.0%</td>
+      </tr></tfoot>
+    </table>
+  </div>
+  <div class="footer">Auto-generated by Sales Report Pipeline &nbsp;·&nbsp; March 11, 2026 &nbsp;·&nbsp; Confidential</div>
+</div>
+</body>
+</html>
