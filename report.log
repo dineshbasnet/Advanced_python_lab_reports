@@ -1,0 +1,14 @@
+2026-04-29 21:42:45,810 - WARNING - having more than 10% missing values
+2026-04-29 21:43:22,927 - WARNING - having more than 10% missing values
+2026-04-29 21:43:40,834 - WARNING - having more than 10% missing values
+2026-04-29 21:44:05,420 - WARNING - having more than 10% missing values
+2026-04-29 21:44:09,548 - WARNING - having more than 10% missing values
+2026-04-29 21:44:31,961 - WARNING - having more than 10% missing values
+2026-04-29 21:44:52,244 - WARNING - having more than 10% missing values
+2026-04-29 21:44:52,246 - INFO - Missing values dropeed successfully
+2026-04-30 12:02:15,168 - WARNING - having more than 10% missing values
+2026-04-30 12:02:15,174 - INFO - Missing values dropeed successfully
+2026-04-30 12:02:20,665 - WARNING - having more than 10% missing values
+2026-04-30 12:02:20,668 - INFO - Missing values dropeed successfully
+2026-04-30 12:03:09,267 - WARNING -  Column:Revenue has 40.0% missing values
+2026-04-30 12:03:09,270 - INFO - Missing values dropeed successfully

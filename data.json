@@ -1,0 +1,22 @@
+{
+    "id": 1,
+    "name": "Dinesh Basnet",
+    "email": "dinesh@example.com",
+    "phone": "+977-9800000000",
+    "age": 20,
+    "isActive": true,
+    "address": {
+        "street": "Madhyapur Thimi",
+        "city": "Bhaktapur",
+        "country": "Nepal"
+    },
+    "skills": [
+        "Python",
+        "JavaScript",
+        "SQL"
+    ],
+    "education": {
+        "degree": "Bachelor",
+        "field": "Computer Science"
+    }
+}

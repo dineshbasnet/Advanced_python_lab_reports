@@ -1,0 +1,11 @@
+OrderID,Price,Quantity,Rating,Category
+1,1200,2,4.5,Electronics
+2,500,,3.8,Clothing
+3,1500,1,4.2,Electronics
+4,,3,4.0,Home
+5,800,2,,Clothing
+6,2000,1,4.9,Electronics
+7,300,5,3.5,Home
+8,1000,2,4.1,Furniture
+9,700,1,3.9,Furniture
+10,1100,,4.3,Clothing
